@@ -1,0 +1,393 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+.all-content{
+  background-color: #d2d2ea;
+}
+html ::-webkit-scrollbar-track{
+  background: rgb(228, 209, 228);
+}
+html ::-webkit-scrollbar-thumb{
+  background: #7a7a86;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+  width: 10px;
+}
+#navbar{
+  background-color: #8e8e99;
+}
+#logo img{
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 40px;  
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: rgb(213, 153, 153);
+  margin-left: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+  background: #f2f7f5;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: rgb(170, 26, 26);
+  color: rgb(200, 121, 57);
+  border: 1px solid rgb(114, 174, 220);
+  border-color: #97dfb0;
+}
+#navbar form button:hover{
+  background: rgb(197, 107, 65);
+  color: rgb(134, 55, 2);
+  border-color: #0a6c1c;
+}
+
+
+#home{
+  width: 100%;
+  height: 90vh;
+  background-image: url(/images1/bc3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 88%;
+
+}
+#home .content{
+  padding-top: 210px;
+  margin-left: 56px;
+  border-color: #db7e45;
+}
+#home .content h3{
+  font-size: 100px;
+  color: #d78a1e;
+}
+#home .content p{
+  margin-top: 10px;
+  color: rgb(200, 116, 55);
+}
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #a20556;
+  color: white;
+}
+
+
+#about{
+  width: 100%;
+  height: 100vh;
+}
+#about .container{
+  padding-top: 70px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 50px;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading span{
+  color: #b2744c;
+}
+#about .card{
+  border-radius: 10px;
+}
+#about .card img{
+  border-radius: 10px;
+}
+#about-btn{
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #d4f421;
+  color: #d79211;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+#about-btn:hover{
+  background-color: #f4ece7;
+  color: rgb(140, 19, 84);
+}
+@media screen and (max-width:982px) {
+  #about p{
+      font-size: 8px;
+  }
+}
+@media screen and (max-width:766px) {
+  #about p{
+      font-size: 15px;
+  }
+  #about{
+      height: 120vh;
+  }
+}
+
+
+
+
+
+
+
+
+#top-cards{
+  width: 100%;
+  height: 60vh;
+  background: #060683;
+}
+.heading2{
+  color: rgb(46, 23, 131);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading2 span{
+  color: #b2744c;
+}
+#top-cards .container{
+  margin-top: 30px;
+}
+#top-cards .card{
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#top-cards .card img{
+  border-radius: 10px;
+}
+#top-cards .card:hover{
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+#services{
+  width: 100%;
+  margin-top: 60px;
+}
+.heading3{
+  text-align: center;
+  font-size: 30px;
+  color: #680505;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+#container2{
+  margin-top: 50px;
+}
+#menu .card{
+  box-shadow: rgba(5, 65, 124, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#menu .card img{
+  box-shadow: rgba(2, 87, 29, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+}
+.star i{
+  color: #0000FF;
+}
+#menu h3{
+  text-align: center;
+  color: #0000FF;
+  margin-top: 10px;
+  font-size: 25px;
+}
+#menu p{
+  font-size: 16px;
+  color: #0000FF;
+  padding-top: 10px;
+}
+#menu p span{
+  float: right;
+  cursor: pointer;
+}
+#menu .card:hover{
+  transform: translateY(-10px);
+}
+
+
+
+#contact{
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+}
+#contact .container{
+  width: 10%;
+  height: 66vh;
+  background: linear-gradient(90deg, white 80%, #191716 20%);
+  border-radius: 100px;
+  margin-top: 90px;
+}
+.heading6{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.heading6 span{
+  color: #b24c84;
+}
+#contact p{
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+#contact input{
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid #b2744c;
+}
+#contact-btn{
+  width: 200px;
+  height: 36px;
+  border: none;
+  background: #b2744c;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#col{
+  width: 40%;
+  height: 40vh;
+  background: black;
+  margin-top: 78px;
+}
+#contact h1{
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#contact #col p{
+  font-size: 15px;
+  color: white;
+  margin-left: 13px;
+  margin-top: 30px;
+}
+@media screen and (max-width:766px){
+  #contact .container{
+      background: white;
+  }
+  #col{
+      width: 100%;
+      background: #da600f;
+  }
+  #contact{
+      height: 150vh;
+  }
+}
+@media screen and (max-width:400px){
+  #contact input{
+      width: 250px;
+  }
+}
+
+#blogs{
+  width: 100%;
+}
+#blogs .heading7{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+#blogs .heading7 span{
+  color: #b2744c;
+}
+#blogs .container{
+  margin-top: 60px;
+}
+#blogs h5{
+  color: #b2744c;
+}
+#blog-btn{
+  width: 150px;
+  height: 36px;
+  border: none;
+  color: white;
+  background: #b2744c;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+#footer{
+  width: 100%;
+  background: #b2744c;
+  margin-top: 50px;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.credits{
+  color: rgb(28, 12, 151);
+  margin-top: 20px;
+  text-shadow: 0px 0px 1px black;
+}
+.credits a{
+  text-decoration: none;
+  color: rgb(244, 237, 237);
+  font-weight: bold;
+}
+#credits a span{
+  color: rgb(244, 239, 239);
+}
+.copyright span{
+  color: rgb(248, 242, 242);
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+.arrow{
+  position: fixed;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-align: center;
+  line-height: 50px;
+}
